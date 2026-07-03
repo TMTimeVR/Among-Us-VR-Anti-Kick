@@ -1,11 +1,6 @@
 # AmongUsVRHacks
-a melonloader hack client for amongus vr (only officially works for steamvr/pc, might work on quest with lemonloader)
-
-(update): i wont be adding any new "hack" features to the client for now, just some quality of life improvements for the game, since most of yall that I see in the game using this are only using it to make the game unplayable for everyone else for no reason whatsoever, which really isn't cool, and also makes it more likely that the devs will add some sort of anticheat and make these mods worthless.
-
-(update (again)): i'll be fixing some of the stuff that's broken in the current menu soon. keep an eye on the repo to know when the updates are out! :3 
-
-(update (again (again))): i'll start working on the update again once this repo hits 30 stars :3 
+## Disclaimer:
+Some stuff might be broken, because the fix was rushed.
 
 ## THIS IS FOR EDUCATIONAL PURPOSES ONLY
 
