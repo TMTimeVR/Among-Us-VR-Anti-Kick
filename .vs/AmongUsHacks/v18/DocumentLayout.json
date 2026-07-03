@@ -74,8 +74,7 @@
               "RelativeToolTip": "src\\Features\\AutomaticFeatures.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-03T15:24:01.133Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-03T15:24:01.133Z"
             },
             {
               "$type": "Document",
@@ -85,9 +84,22 @@
               "RelativeDocumentMoniker": "src\\Features\\UnignoreGhosts.cs",
               "ToolTip": "D:\\AmongUsVRHacks-main\\AmongUsVRHacks-main\\src\\Features\\UnignoreGhosts.cs",
               "RelativeToolTip": "src\\Features\\UnignoreGhosts.cs",
-              "ViewState": "AgIAAD4AAAAAAAAAAAAgwD8AAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADcAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-07-03T15:20:59.651Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Helpers.cs",
+              "DocumentMoniker": "D:\\AmongUsVRHacks-main\\AmongUsVRHacks-main\\src\\Utils\\Helpers.cs",
+              "RelativeDocumentMoniker": "src\\Utils\\Helpers.cs",
+              "ToolTip": "D:\\AmongUsVRHacks-main\\AmongUsVRHacks-main\\src\\Utils\\Helpers.cs",
+              "RelativeToolTip": "src\\Utils\\Helpers.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAgwDYAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-03T13:56:11.175Z",
               "EditorCaption": ""
             },
             {
@@ -112,8 +124,7 @@
               "RelativeToolTip": "src\\Utils\\XRInputWrapper.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACkAAABOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-03T15:05:19.813Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-03T15:05:19.813Z"
             },
             {
               "$type": "Document",
@@ -137,8 +148,7 @@
               "RelativeToolTip": "src\\Utils\\Misc.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAQwBsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-03T14:02:56.949Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-03T14:02:56.949Z"
             },
             {
               "$type": "Document",
@@ -174,8 +184,7 @@
               "RelativeToolTip": "src\\Features\\KillCooldown.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-03T14:01:54.184Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-03T14:01:54.184Z"
             },
             {
               "$type": "Document",
@@ -203,19 +212,6 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Helpers.cs",
-              "DocumentMoniker": "D:\\AmongUsVRHacks-main\\AmongUsVRHacks-main\\src\\Utils\\Helpers.cs",
-              "RelativeDocumentMoniker": "src\\Utils\\Helpers.cs",
-              "ToolTip": "D:\\AmongUsVRHacks-main\\AmongUsVRHacks-main\\src\\Utils\\Helpers.cs",
-              "RelativeToolTip": "src\\Utils\\Helpers.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAAAC0AAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-03T13:56:11.175Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 4,
               "Title": "ImposterReveal.cs",
               "DocumentMoniker": "D:\\AmongUsVRHacks-main\\AmongUsVRHacks-main\\src\\Features\\ImposterReveal.cs",
@@ -224,8 +220,7 @@
               "RelativeToolTip": "src\\Features\\ImposterReveal.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-03T13:55:22.629Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-03T13:55:22.629Z"
             }
           ]
         }
