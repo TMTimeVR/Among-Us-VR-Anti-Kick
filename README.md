@@ -1,11 +1,14 @@
 # AmongUsVRHacks
-a melonloader hack client for amongus vr (only officially works for steamvr/pc, might work on quest with lemonloader)
+## Disclaimer:
+Some stuff might be broken, because the fix was rushed.
 
-(update): i wont be adding any new "hack" features to the client for now, just some quality of life improvements for the game, since most of yall that I see in the game using this are only using it to make the game unplayable for everyone else for no reason whatsoever, which really isn't cool, and also makes it more likely that the devs will add some sort of anticheat and make these mods worthless.
+## Contact:
+Email me at contact AT tmtime DOT dev.
 
-(update (again)): i'll be fixing some of the stuff that's broken in the current menu soon. keep an eye on the repo to know when the updates are out! :3 
+## What was changed/removed:
+I removed the Kill cooldown method since it caused errors during the build. I might be able to restore it, but I think that the kill cooldown is now server-authorative/managed by the host.
 
-(update (again (again))): i'll start working on the update again once this repo hits 30 stars :3 
+I removed the websockets client, and the auto updater.
 
 ## THIS IS FOR EDUCATIONAL PURPOSES ONLY
 
@@ -16,7 +19,7 @@ a melonloader hack client for amongus vr (only officially works for steamvr/pc, 
 ### I'm planning on making an auto-installer that you can run to install melonloader and the mod automatically, but for now, you have to do all of it manually. Tutorial here: https://youtu.be/cVmR-f71NkE
 
 current features include:
-- no kill cooldown (makes you able to kill everyone instantly while imposter) -- Press "K" to toggle
+- ~~no kill cooldown (makes you able to kill everyone instantly while imposter) -- Press "K" to toggle~~
 - no-clip (disabling colliders and the blinding box - currently only works on skeld right now) -- Press "C" to toggle
 - speed increase -- Press "S" to toggle
 - force show imposters (this only works if you're the host i think) -- Press "I" to toggle
@@ -26,7 +29,7 @@ current features include:
 - kill everyone functions -- Press DownArrow to toggle usage, then press numbers 1-6 on your keyboard to use different functions. these only work if you're the host
 - Rainbow Colors (makes everyone in the lobby change colors, only works if youre the host) -- Press "R" to toggle
 - RPC websocket (lets you see how many people are online with the client by going to https://amongusvr.sleepie.dev/online and you can see how many times people have used the client by going to https://amongusvr.sleepie.dev/startups :3)
-- auto updater
+- ~~auto updater~~
 
 planned features:
 - kill alerts (alerts you when someone kills someone else)

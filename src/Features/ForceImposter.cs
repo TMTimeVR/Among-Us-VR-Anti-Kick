@@ -17,9 +17,24 @@ namespace AmongUsHacks.Features
         {
             Helpers.RefreshKillManager();
             PlayerRef playerRef = Helpers.GetSelfPlayerRef();
-            //Globals.killManager.AlterRole(GameRole.Imposter, playerRef);
-            Globals.killManager.AlterRole(GameRole.Vigilante, playerRef);
-            MelonLogger.Msg($"Successfully forced imposter.");
+            try
+            {
+                Globals.killManager.AlterRole(GameRole.Impostor, playerRef);
+            }
+            catch (Exception e)
+            {
+                Debug.LogError("Error occurred when changing to imposter: " + e.ToString());
+                MelonLogger.Msg($"Successfully forced imposter.");
+            }
+            try
+            {
+                Globals.killManager.AlterRole(GameRole.Vigilante, playerRef);
+                MelonLogger.Msg($"Successfully forced vigilante.");
+            }
+            catch (Exception e)
+            {
+                Debug.LogError("Error occurred when changing to vigilante: " + e.ToString());
+            }
         }
     }
 }
