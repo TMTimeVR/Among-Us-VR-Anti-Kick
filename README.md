@@ -8,7 +8,7 @@ Email me at contact <AT> tmtime <DOT> dev.
 ## What was changed/removed:
 I removed the Kill cooldown method since it caused errors during the build. I might be able to restore it, but I think that the kill cooldown is now server-authorative/managed by the host.
 
-I removed the websockets client.
+I removed the websockets client, and the auto updater.
 
 ## THIS IS FOR EDUCATIONAL PURPOSES ONLY
 
@@ -29,7 +29,7 @@ current features include:
 - kill everyone functions -- Press DownArrow to toggle usage, then press numbers 1-6 on your keyboard to use different functions. these only work if you're the host
 - Rainbow Colors (makes everyone in the lobby change colors, only works if youre the host) -- Press "R" to toggle
 - RPC websocket (lets you see how many people are online with the client by going to https://amongusvr.sleepie.dev/online and you can see how many times people have used the client by going to https://amongusvr.sleepie.dev/startups :3)
-- auto updater
+- ~~auto updater~~
 
 planned features:
 - kill alerts (alerts you when someone kills someone else)
