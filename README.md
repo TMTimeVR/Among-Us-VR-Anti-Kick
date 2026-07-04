@@ -2,6 +2,9 @@
 ## Disclaimer:
 Some stuff might be broken, because the fix was rushed.
 
+## Contact:
+Email me at contact <AT> tmtime <DOT> dev.
+
 ## What was changed/removed:
 I removed the Kill cooldown method since it caused errors during the build. I might be able to restore it, but I think that the kill cooldown is now server-authorative/managed by the host.
 
