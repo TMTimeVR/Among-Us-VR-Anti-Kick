@@ -16,7 +16,7 @@ I removed the websockets client.
 ### I'm planning on making an auto-installer that you can run to install melonloader and the mod automatically, but for now, you have to do all of it manually. Tutorial here: https://youtu.be/cVmR-f71NkE
 
 current features include:
-- no kill cooldown (makes you able to kill everyone instantly while imposter) -- Press "K" to toggle
+- ~~no kill cooldown (makes you able to kill everyone instantly while imposter) -- Press "K" to toggle~~
 - no-clip (disabling colliders and the blinding box - currently only works on skeld right now) -- Press "C" to toggle
 - speed increase -- Press "S" to toggle
 - force show imposters (this only works if you're the host i think) -- Press "I" to toggle
