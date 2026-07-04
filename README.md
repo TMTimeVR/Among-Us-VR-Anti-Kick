@@ -2,6 +2,11 @@
 ## Disclaimer:
 Some stuff might be broken, because the fix was rushed.
 
+## What was changed/removed:
+I removed the Kill cooldown method since it caused errors during the build. I might be able to restore it, but I think that the kill cooldown is now server-authorative/managed by the host.
+
+I removed the websockets client.
+
 ## THIS IS FOR EDUCATIONAL PURPOSES ONLY
 
 ## TO USE THIS YOU MUST BE USING PCVR/STEAMVR. THIS WILL NOT WORK FOR QUEST, PLAYSTATION, OR ANYTHING OTHER THAN STEAMVR.
