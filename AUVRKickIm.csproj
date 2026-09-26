@@ -1,0 +1,355 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net6.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+		<AmongUsVRPath>D:\SteamLibrary\steamapps\common\Among Us VR</AmongUsVRPath>
+		<GameDlls>$(AmongUsVRPath)\MelonLoader\Il2CppAssemblies\</GameDlls>
+	</PropertyGroup>
+
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+		<GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+	</PropertyGroup>
+
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+		<GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="ds5678.Modding.Unity.KeyboardUtilities" Version="2.0.0" />
+	</ItemGroup>
+
+	<ItemGroup>
+
+		<Reference Include="$(GameDlls)Il2CppEpic.OnlineServices.dll">
+			<Private>false</Private>
+		</Reference>
+
+		<Reference Include="$(GameDlls)Il2CppFusion.Addressables.dll">
+			<Private>false</Private>
+		</Reference>
+
+		<Reference Include="$(GameDlls)Il2CppFusion.Common.dll">
+			<Private>false</Private>
+		</Reference>
+
+		<Reference Include="$(GameDlls)Il2CppFusion.Realtime.dll">
+			<Private>false</Private>
+		</Reference>
+
+		<Reference Include="$(GameDlls)Il2CppFusion.Runtime.dll">
+			<Private>false</Private>
+		</Reference>
+
+		<Reference Include="$(GameDlls)Il2CppFusion.Scripts.dll">
+			<Private>false</Private>
+		</Reference>
+
+		<Reference Include="$(GameDlls)Il2CppFusion.Sockets.dll">
+			<Private>false</Private>
+		</Reference>
+
+		<Reference Include="$(GameDlls)Il2CppGilgaMesh.Runtime.dll">
+			<Private>false</Private>
+		</Reference>
+
+		<Reference Include="$(GameDlls)Il2CppNanoSockets.dll">
+			<Private>false</Private>
+		</Reference>
+
+		<Reference Include="$(GameDlls)Il2CppOculus.Platform.dll">
+			<Private>false</Private>
+		</Reference>
+
+		<Reference Include="$(GameDlls)Il2CppOculus.VR.dll">
+			<Private>false</Private>
+		</Reference>
+
+		<Reference Include="$(GameDlls)Il2CppPhoton3Unity3D.dll">
+			<Private>false</Private>
+		</Reference>
+
+		<Reference Include="$(GameDlls)Il2CppPhotonRealtime.dll">
+			<Private>false</Private>
+		</Reference>
+
+		<Reference Include="$(GameDlls)Il2CppPhotonVoice.API.dll">
+			<Private>false</Private>
+		</Reference>
+
+		<Reference Include="$(GameDlls)Il2CppPhotonVoice.dll">
+			<Private>false</Private>
+		</Reference>
+
+		<Reference Include="$(GameDlls)Il2CppPhotonVoice.Fusion.dll">
+			<Private>false</Private>
+		</Reference>
+
+		<Reference Include="$(GameDlls)Il2CppSG.Airlock.dll">
+			<Private>false</Private>
+		</Reference>
+
+		<Reference Include="$(GameDlls)Il2CppSG.AutoPerf.Data.Airlock.dll">
+			<Private>false</Private>
+		</Reference>
+
+		<Reference Include="$(GameDlls)Il2CppSG.AutoPerf.Data.dll">
+			<Private>false</Private>
+		</Reference>
+
+		<Reference Include="$(GameDlls)Il2CppSG.AutoPerf.dll">
+			<Private>false</Private>
+		</Reference>
+
+		<Reference Include="$(GameDlls)Il2CppSG.Core.dll">
+			<Private>false</Private>
+		</Reference>
+
+		<Reference Include="$(GameDlls)Il2CppSG.EosSDK2.dll">
+			<Private>false</Private>
+		</Reference>
+
+		<Reference Include="$(GameDlls)Il2CppSG.FusionSimulator.dll">
+			<Private>false</Private>
+		</Reference>
+
+		<Reference Include="$(GameDlls)Il2CppSG.GlobalEvents.dll">
+			<Private>false</Private>
+		</Reference>
+
+		<Reference Include="$(GameDlls)Il2CppSG.LightTween.dll">
+			<Private>false</Private>
+		</Reference>
+
+		<Reference Include="$(GameDlls)Il2CppSG.LightUI.dll">
+			<Private>false</Private>
+		</Reference>
+
+		<Reference Include="$(GameDlls)Il2CppSG.OVRMetricsToolkitExtension.dll">
+			<Private>false</Private>
+		</Reference>
+
+		<Reference Include="$(GameDlls)Il2CppSG.Platform.Airlock3D.dll">
+			<Private>false</Private>
+		</Reference>
+
+		<Reference Include="$(GameDlls)Il2CppSG.Platform.dll">
+			<Private>false</Private>
+		</Reference>
+
+		<Reference Include="$(GameDlls)Il2CppSG.Platform.Oculus.dll">
+			<Private>false</Private>
+		</Reference>
+
+		<Reference Include="$(GameDlls)Il2CppSG.Platform.QADebug.dll">
+			<Private>false</Private>
+		</Reference>
+
+		<Reference Include="$(GameDlls)Il2CppSG.Platform.SimulatedXR.dll">
+			<Private>false</Private>
+		</Reference>
+
+		<Reference Include="$(GameDlls)Il2CppSG.Platform.Steam.dll">
+			<Private>false</Private>
+		</Reference>
+
+		<Reference Include="$(GameDlls)Il2CppSG.PlayerLoops.dll">
+			<Private>false</Private>
+		</Reference>
+
+		<Reference Include="$(GameDlls)Il2CppSG.SkuBuild.dll">
+			<Private>false</Private>
+		</Reference>
+
+		<Reference Include="$(GameDlls)Il2CppSG.SkuBuild.Oculus.dll">
+			<Private>false</Private>
+		</Reference>
+
+		<Reference Include="$(GameDlls)Il2CppSG.SkuBuild.Steam.dll">
+			<Private>false</Private>
+		</Reference>
+
+		<Reference Include="$(GameDlls)Il2CppSG.SoundCore.dll">
+			<Private>false</Private>
+		</Reference>
+
+		<Reference Include="$(GameDlls)Il2CppSG.VAT.dll">
+			<Private>false</Private>
+		</Reference>
+
+		<Reference Include="$(GameDlls)Il2CppSG.Vignettitor.dll">
+			<Private>false</Private>
+		</Reference>
+
+		<Reference Include="$(GameDlls)Il2CppSteamVR.dll">
+			<Private>false</Private>
+		</Reference>
+
+		<Reference Include="$(GameDlls)Il2CppSteamVR_Actions.dll">
+			<Private>false</Private>
+		</Reference>
+
+		<Reference Include="$(GameDlls)Il2CppSystem.Drawing.dll">
+			<Private>false</Private>
+		</Reference>
+
+		<Reference Include="$(GameDlls)Il2CppSystem.Net.Http.dll">
+			<Private>false</Private>
+		</Reference>
+
+		<Reference Include="$(GameDlls)Il2CppToxMod.dll">
+			<Private>false</Private>
+		</Reference>
+
+		<Reference Include="$(GameDlls)Il2CppValve.Newtonsoft.Json.dll">
+			<Private>false</Private>
+		</Reference>
+
+		<Reference Include="$(GameDlls)Il2Cppwebsocket-sharp.dll">
+			<Private>false</Private>
+		</Reference>
+
+		<Reference Include="$(GameDlls)Il2Cpp__Generated.dll">
+			<Private>false</Private>
+		</Reference>
+
+		<Reference Include="$(GameDlls)Unity.InputSystem.dll">
+			<Private>false</Private>
+		</Reference>
+
+		<Reference Include="$(GameDlls)Unity.InputSystem.ForUI.dll">
+			<Private>false</Private>
+		</Reference>
+
+		<Reference Include="$(GameDlls)Unity.InputSystem.RebindingUI.dll">
+			<Private>false</Private>
+		</Reference>
+
+		<Reference Include="$(GameDlls)Unity.Localization.dll">
+			<Private>false</Private>
+		</Reference>
+
+		<Reference Include="$(GameDlls)Unity.MemoryProfiler.dll">
+			<Private>false</Private>
+		</Reference>
+
+		<Reference Include="$(GameDlls)Unity.ProBuilder.dll">
+			<Private>false</Private>
+		</Reference>
+
+		<Reference Include="$(GameDlls)Unity.ProBuilder.KdTree.dll">
+			<Private>false</Private>
+		</Reference>
+
+		<Reference Include="$(GameDlls)Unity.ProBuilder.Poly2Tri.dll">
+			<Private>false</Private>
+		</Reference>
+
+		<Reference Include="$(GameDlls)Unity.Profiling.Core.dll">
+			<Private>false</Private>
+		</Reference>
+
+		<Reference Include="$(GameDlls)Unity.RenderPipeline.Universal.ShaderLibrary.dll">
+			<Private>false</Private>
+		</Reference>
+
+		<Reference Include="$(GameDlls)Unity.RenderPipelines.Core.Runtime.dll">
+			<Private>false</Private>
+		</Reference>
+
+		<Reference Include="$(GameDlls)Unity.RenderPipelines.Universal.Runtime.dll">
+			<Private>false</Private>
+		</Reference>
+
+		<Reference Include="$(GameDlls)Unity.Services.Analytics.dll">
+			<Private>false</Private>
+		</Reference>
+
+		<Reference Include="$(GameDlls)Unity.Services.Core.Configuration.dll">
+			<Private>false</Private>
+		</Reference>
+
+		<Reference Include="$(GameDlls)Unity.Services.Core.Device.dll">
+			<Private>false</Private>
+		</Reference>
+
+		<Reference Include="$(GameDlls)Unity.Services.Core.dll">
+			<Private>false</Private>
+		</Reference>
+
+		<Reference Include="$(GameDlls)Unity.Services.Core.Environments.dll">
+			<Private>false</Private>
+		</Reference>
+
+		<Reference Include="$(GameDlls)Unity.Services.Core.Environments.Internal.dll">
+			<Private>false</Private>
+		</Reference>
+
+		<Reference Include="$(GameDlls)Unity.Services.Core.Internal.dll">
+			<Private>false</Private>
+		</Reference>
+
+		<Reference Include="$(GameDlls)Unity.Services.Core.Registration.dll">
+			<Private>false</Private>
+		</Reference>
+
+		<Reference Include="$(GameDlls)Unity.Services.Core.Scheduler.dll">
+			<Private>false</Private>
+		</Reference>
+
+		<Reference Include="$(GameDlls)Unity.Services.Core.Telemetry.dll">
+			<Private>false</Private>
+		</Reference>
+
+		<Reference Include="$(GameDlls)Unity.Services.Core.Threading.dll">
+			<Private>false</Private>
+		</Reference>
+
+		<Reference Include="$(GameDlls)Unity.XR.CoreUtils.dll">
+			<Private>false</Private>
+		</Reference>
+
+		<Reference Include="$(GameDlls)Unity.XR.Interaction.Toolkit.dll">
+			<Private>false</Private>
+		</Reference>
+
+		<Reference Include="$(GameDlls)Unity.XR.Management.dll">
+			<Private>false</Private>
+		</Reference>
+
+		<Reference Include="$(GameDlls)Unity.XR.MockHMD.dll">
+			<Private>false</Private>
+		</Reference>
+
+		<Reference Include="$(GameDlls)Unity.XR.Oculus.dll">
+			<Private>false</Private>
+		</Reference>
+
+		<Reference Include="$(GameDlls)Unity.XR.OpenVR.dll">
+			<Private>false</Private>
+		</Reference>
+
+		<Reference Include="$(GameDlls)UnityEngine.ContentLoadModule.dll">
+			<Private>false</Private>
+		</Reference>
+
+		<Reference Include="$(GameDlls)UnityEngine.PropertiesModule.dll">
+			<Private>false</Private>
+		</Reference>
+
+		<Reference Include="$(GameDlls)UnityEngine.SpatialTracking.dll">
+			<Private>false</Private>
+		</Reference>
+
+		<Reference Include="$(GameDlls)UnityEngine.UnityAnalyticsCommonModule.dll">
+			<Private>false</Private>
+		</Reference>
+
+		<Reference Include="$(GameDlls)UnityEngine.XR.LegacyInputHelpers.dll">
+			<Private>false</Private>
+		</Reference>
+
+	</ItemGroup>
+
+</Project>
