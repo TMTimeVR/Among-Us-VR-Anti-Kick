@@ -8,7 +8,7 @@ using AUVRKickIm.Main;
 [assembly: MelonAuthorColor(ConsoleColor.Green)]
 
 [assembly: AssemblyTitle("AntiKick")]
-[assembly: AssemblyDescription("A defenive mod for Among Us VR.")]
+[assembly: AssemblyDescription("A defensive mod for Among Us VR.")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("N/A")]
 [assembly: AssemblyProduct("AntiKick")]
