@@ -14,9 +14,10 @@ namespace AUVRKickIm.src.Utils
         public static bool AntiSpectate = false;
         public static bool AntiColorChange = false;
         public static bool AntiMute = false;
-        public static bool AntiReport = false;
 
         public static int LocalPlayerId = -1;
+
+        /*Please ignore these bools. I took a privatee version of this mod that protects me from exploiters force changing my color, name, cosmetics, roles, etc and cut it down.*/
 
         private static void Log(string s)
         {
