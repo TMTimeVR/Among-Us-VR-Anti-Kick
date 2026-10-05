@@ -2,7 +2,7 @@
 using MelonLoader;
 using AUVRKickIm.Main;
 
-[assembly: MelonInfo(typeof(ModEntry), "AntiKick", "1.0.1", "N/A")]
+[assembly: MelonInfo(typeof(ModEntry), "AntiKick", "1.0.0", "TMTime")]
 
 [assembly: MelonColor(ConsoleColor.Gray)]
 [assembly: MelonAuthorColor(ConsoleColor.Green)]
