@@ -9,3 +9,5 @@ Just don't think you're god.
 ## Info:
 
 The game's normal vote kick relies on the kicked player's own client agreeing to leave. A client-side mod can simply refuse. Only a hard disconnect from the host gets around that.
+
+Also, I took the project files from Eepy's Among Us VR Hacks and just removed almost all of the files to keep the setup since I have no idea how to set up a MelonLoader mod.
