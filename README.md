@@ -5,3 +5,7 @@ Stops you from being kicked from lobbies. Meant to protect you from exploiters k
 I have no doubt that this will be used by exploiters.
 
 Just don't think you're god.
+
+## Info:
+
+The game's normal vote kick relies on the kicked player's own client agreeing to leave. A client-side mod can simply refuse. Only a hard disconnect from the host gets around that.
